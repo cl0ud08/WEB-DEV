@@ -8,3 +8,7 @@ fs.readFile('./file.txt', 'utf-8', (err, data) => {
         console.log(err);}
     else console.log(data);
 });
+
+fs.cpSync('file.txt','file2.txt',);
+
+fs.appendFileSync('file2.txt','\ni am sowtware engineer');
